@@ -10,6 +10,15 @@ Außerdem sollte der Spieler auf dem Weg zum Kuchen Grünkohl und Minze einsamme
 Dazu sollte es neben dem Spieler auch andere Actor geben, die sich zum Teil bewegen können, um die Welt etwas lebendiger zu machen.
 Wir wollten auch einen Screen dafür, dass der Spieler tot ist und einen dafür, dass er gewonnen hat, wenn er den Kuchen gegessen hat.
 
+## Aufbau
+Die Spielfigur ist ein Ritter namens Sir Grünkohl.
+Dieser muss versuchen, zum Kuchen zu gelangen, um ein Level zu schaffen. 
+Dabei muss der Ritter allerdings den Schlangen ausweichen, denn diese wollen ihn töten.
+Der Ritter muss dafür auch von Plattform zu Plattform springen.
+Auf dem Weg zum Kuchen kann er Grünkohl und Minze einsammeln.
+Außerdem gibt es in jedem Level einen Frosch, der Fliegen isst, die in der Luft herumfliegen. 
+Diese haben aber keinen Einfluss auf den Spieler.
 
-### Die verschiedenen Klassen/Actors
+
+### Die Codes der verschiedenen Klassen/Actors erklärt
 
