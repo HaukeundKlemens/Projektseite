@@ -25,3 +25,8 @@ Sollte der Ritter aber davor sterben, erscheint ein "dead"-Screen.
 
 ### Die Codes der verschiedenen Klassen/Actors erklärt
 
+#### KnightWorld
+dd
+
+#### KnightWorld2
+dddd
