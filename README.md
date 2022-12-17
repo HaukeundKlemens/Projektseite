@@ -22,8 +22,10 @@ Am Ende ist auf der letzten Plattform jedes Levels ein Kuchen.
 Wenn der Ritter diesen isst, gewinnt er das Level und ein "win"-Screen erscheint.
 Sollte der Ritter aber davor sterben, erscheint ein "dead"-Screen.
 
-Worlds
-### Die Codes der verschiedenen Klassen/Actors erklärt
+
+## Die Codes der verschiedenen Klassen/Actors erklärt
+
+### Worlds
 
 #### KnightWorld
 dd
@@ -31,7 +33,8 @@ dd
 #### KnightWorld2
 dddd
 
-Actors
+### Actors
+
 #### Fliege
 
 #### Frosch
