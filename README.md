@@ -31,7 +31,7 @@ Sollte der Ritter aber davor sterben, erscheint ein "dead"-Screen.
 Die Welt KnightWorld stellt das erste Level des Spiels dar.
 
 #### KnightWorld2
-Die Welt KnightWorld stellt das erste Level des Spiels dar.
+Die Welt KnightWorld stellt das zweite Level des Spiels dar.
 
 ### Actors
 
