@@ -36,6 +36,7 @@ Die Welt KnightWorld stellt das zweite Level des Spiels dar.
 ### Actors
 
 #### Fliege
+Die Fliege ist ein Actor, der von dem Frosch gegessen werden kann und keinen Einfluss auf den Spieler selber hat.
 
 #### Frosch
 
