@@ -53,7 +53,7 @@ Das einfügen von für den Spieler harmlosen Schlangen in die Welt ist geplant.
 
 
 #### KnightWorld2
-Die Welt KnightWorld stellt das zweite Level des Spiels dar. Hier gibt es keine große Änderung zum anderen Level, außer, dass der Actor hier Player2 und nicht Player heißt.
+Die Welt KnightWorld2 stellt das zweite Level des Spiels dar. Hier gibt es keine große Änderung zum anderen Level, außer, dass der Actor hier Player2 und nicht Player heißt.
 ![image](https://user-images.githubusercontent.com/111414678/208299150-b10a35d7-f0fd-482b-a72c-ee2c01a988fa.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299168-018865e1-8d84-4f0a-b0af-f8ce505cb48d.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299190-1ce16aef-d0af-456e-b94a-452ae615c6a4.png)
@@ -65,6 +65,8 @@ Die Welt KnightWorld stellt das zweite Level des Spiels dar. Hier gibt es keine 
 #### Fliege
 Die Fliege ist ein Actor, der von dem Frosch gegessen werden kann und keinen Einfluss auf den Spieler selber hat.
 ![image](https://user-images.githubusercontent.com/111414678/208299397-221cfde1-1a86-4625-9def-851f85242708.png)
+Die Fliege hat nur den act() Befehl und dieser gibt der Fliege nur die ständige Veränderung ihrer Flugbahn in einem maximal 45 Grad Winkel vor, dieseVeränderung wird durch einen Zufallsgenerator bestimmt.
+Wenn sie sich am Rand Befindet dreht sie sich um  180 Grad.
 
 
 #### Frosch
