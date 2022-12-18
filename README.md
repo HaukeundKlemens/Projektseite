@@ -71,17 +71,17 @@ Die Welt KnightWorld stellt das erste Level des Spiels dar.
 Der Code beginnt mit zwei Variablen, die im Code erklärt sind.
 In public KnightWorld() wird zuerst die Fenstergröße gewählt, die Super, das false hebt die Seitenbeschränkung für das Bild auf.
 Darunter wird der Hintergrund ausgewählt und platziert.
-fillWorld() und prepare() sind beide dazu da, objekte in der Welt zu platzieren.
-Die act() Methode aktualisiert jeden Tick die Position der Welt, da drawBackground(), was dort ausgeführt wird dort aktiviert ist.
+fillWorld() und prepare() sind beide dazu da, Objekte in der Welt zu platzieren.
+Die act() Methode aktualisiert jeden Tick die Position der Welt, da drawBackground(), was dort ausgeführt wird, dort aktiviert ist.
 Die fillWorld Methode fügt der Spieler hinzu.
 ![image](https://user-images.githubusercontent.com/111414678/208318232-d766fec1-1353-47dc-a6a9-c941f859026d.png)
-Die changeBackground(int changeX) Methode greift auf die Variable für den Hintergrund zu, dann wird die Ursprungskoordinate genommen und um die Veränderung durch die Bewegung berechnet.
-in der drawBackground() Methode wird dann noch der Hintergrund dieser Veränderung angepasst.
+Die changeBackground(int changeX)-Methode greift auf die Variable für den Hintergrund zu, dann wird die Ursprungskoordinate genommen und um die Veränderung durch die Bewegung berechnet.
+In der drawBackground() Methode wird dann noch der Hintergrund dieser Veränderung angepasst.
 ![image](https://user-images.githubusercontent.com/111414678/208318250-4a735a19-bbd7-47d6-9626-050a4614d5c6.png)
 ![image](https://user-images.githubusercontent.com/111414678/208318265-efd854f7-abd7-4d32-95af-23009118479e.png)
 ![image](https://user-images.githubusercontent.com/111414678/208318281-26b8b30e-46c2-47d1-9a91-9247aa097b69.png)
-Die Methode prepare setzt die verschiedenen Aktoren, die gelistet sind in die Welt, wir haben diese dann noch ein wenig aufgeräumt.
-Das einfügen von für den Spieler harmlosen Schlangen in die Welt ist geplant.
+Die Methode prepare setzt die verschiedenen Aktoren, die gelistet sind in die Welt. Wir haben diese dann noch ein wenig aufgeräumt.
+Das Einfügen von für den Spieler harmlosen Schlangen in die Welt ist geplant.
 
 
 
@@ -98,14 +98,14 @@ Die Welt KnightWorld2 stellt das zweite Level des Spiels dar. Hier gibt es keine
 #### <a name="3"></a>Fliege
 Die Fliege ist ein Actor, der von dem Frosch gegessen werden kann und keinen Einfluss auf den Spieler selber hat.
 ![image](https://user-images.githubusercontent.com/111414678/208299397-221cfde1-1a86-4625-9def-851f85242708.png)
-Die Fliege hat nur den act() Befehl und dieser gibt der Fliege nur die ständige Veränderung ihrer Flugbahn in einem maximal 45 Grad Winkel vor, dieseVeränderung wird durch einen Zufallsgenerator bestimmt.
+Die Fliege hat nur den act() Befehl und dieser gibt der Fliege nur die ständige Veränderung ihrer Flugbahn in einem maximal 45 Grad Winkel vor. Diese Veränderung wird durch einen Zufallsgenerator bestimmt.
 Wenn sie sich am Rand Befindet dreht sie sich um  180 Grad.
-Außerdem sind darunter zwei Möglichkeiten, die Fliege zu bewegen gelistet, welche allerdings inaktiv sind. 
+Außerdem sind darunter zwei Möglichkeiten, die Fliege zu bewegen, gelistet, welche allerdings inaktiv sind. 
 
 #### <a name="4"></a>Frosch
 Der Frosch ist ein Actor, der Fliegen essen kann. Er kommt einmal in jedem Level vor und hat keinen Einfluss auf den Spieler selber.
 ![image](https://user-images.githubusercontent.com/111414678/208299427-162e34a7-fc19-4e7c-9dc9-fd29c06e336b.png)
-VerticalSpeed ist eine Variable. Die act() Methode lässt die Codes immer wieder ausführen. Der Befehl MoveAndTurn lässt den Frosch nach Links und Rechts laufen. Mit Eat kann der Frosch die Fliege essen und die Sound-Datei zu Eat wird abgespielt. Falling sorgt dafür, dass die Fallgeschwindigkeit immer höher wird. Checkfalling bedeutet, dass überprüft wird, ob der Actor auf einer Platform ist und, dass dieser fällt, wenn dies nicht der Fall ist. BooleanOnGround lässt den Actor, wenn er von einer Platform aus springt, auf die Platform und nicht auf den Boden fallen. Mit Jump kann der Actor mit einer vorher eingestellten Geschwindigkeit hochspringen und Falling wird danach aktiviert.
+VerticalSpeed ist eine Variable. Die act() Methode lässt die Codes immer wieder ausführen. Der Befehl MoveAndTurn lässt den Frosch nach links und rechts laufen. Mit Eat kann der Frosch die Fliege essen und die Sound-Datei zu Eat wird abgespielt. Falling sorgt dafür, dass die Fallgeschwindigkeit immer höher wird. Checkfalling bedeutet, dass überprüft wird, ob der Actor auf einer Platform ist und, dass dieser fällt, wenn dies nicht der Fall ist. BooleanOnGround lässt den Actor, wenn er von einer Platform aus springt, auf die Platform und nicht auf den Boden fallen. Mit Jump kann der Actor mit einer vorher eingestellten Geschwindigkeit hochspringen und Falling wird danach aktiviert.
 
 ![image](https://user-images.githubusercontent.com/111414678/208299440-5057b6fb-7cf5-48ef-953b-e863b20ce4ba.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299531-152c0bee-a59e-4d93-ae85-9f57e12dd6d8.png)
@@ -119,17 +119,17 @@ GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er
 
 
 #### <a name="6"></a>Grünkohl
-"Grünkohl" ist ein Actor, der vom Spieler gegessen werden kann. Er bewegt sich exakt mit dem Hintergrund durch den move Befehl, der an die Tastaturtasten a und d geheftet wurde.
+"Grünkohl" ist ein Actor, der vom Spieler gegessen werden kann. Er bewegt sich exakt mit dem Hintergrund durch den move-Befehl, der an die Tastaturtasten a und d geheftet wurde.
 ![image](https://user-images.githubusercontent.com/111414678/208299568-7e2692e4-778f-40be-8270-af50950889ba.png)
 
 
 #### <a name="7"></a>Infotafel
-Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Sie wurde von uns auf der Seite "pixelart" erstellt und ins Spiel eingefügt. In jedem Level gibt es nahe der Startposition des Spielers eine Infotafel. Sie bewegt sich exakt mit dem Hintergrund durch den move Befehl, der an die Tastaturtasten a und d geheftet wurde.
+Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen, mitgeteilt. Sie wurde von uns auf der Seite "pixelart" erstellt und ins Spiel eingefügt. In jedem Level gibt es nahe der Startposition des Spielers eine Infotafel. Sie bewegt sich exakt mit dem Hintergrund durch den move-Befehl, der an die Tastaturtasten a und d geheftet wurde.
 ![image](https://user-images.githubusercontent.com/111414678/208299587-12127aae-48ed-4926-ac6d-5a3043662fd0.png)
 
 
 #### <a name="8"></a>Kuchen
-"Kuchen" ist ein Actor, der vom Spieler gegessen werden kann. Wenn er dies tut, schließt er ein Level ab bzw. gewinnt dieses. Er bewegt sich exakt mit dem Hintergrund durch den move Befehl, der an die Tastaturtasten a und d geheftet wurde.
+"Kuchen" ist ein Actor, der vom Spieler gegessen werden kann. Wenn er dies tut, schließt er ein Level ab bzw. gewinnt dieses. Er bewegt sich exakt mit dem Hintergrund durch den move-Befehl, der an die Tastaturtasten a und d geheftet wurde.
 ![image](https://user-images.githubusercontent.com/111414678/208302596-3a7aa52d-fed5-4e26-98ae-07c73dcac56c.png)
 
 
@@ -149,14 +149,14 @@ Auf der "Platform" kann der Spieler stehen, sich bewegen und springen ohne nach 
 #### <a name="11"></a>Player
 Der Actor "Player" ist der vom Spieler gesteuerte Ritter im ersten Level. Wenn dieser Grünkohl oder Minze isst, erscheint ein dazu passendes Geräusch.
 ![image](https://user-images.githubusercontent.com/111414678/208321803-04311c17-f8ee-4d4c-b081-b5aa032ffc18.png)
-Als Variablen gibt es eine score Variable, die ungenutzt ist, sowie wieder die verticalSpeed Variable, wie beim Frosch.
-in der act() Methode gibt es checkKeys, was die Steuerung des Spielers zeigt, außerdem wird bei einer Bewegungsumkehr zwischen rechts und links das Spielerbild gedreht. Bei dem eat() Befehl kann der Player Grünkohl, Minze und den Kuchen essen, also aus der Welt entfernen, dabei wird ein Essensgeräusch abgespielt.
+Als Variablen gibt es eine score-Variable, die ungenutzt ist, sowie wieder die verticalSpeed-Variable, wie beim Frosch.
+in der act()-Methode gibt es checkKeys, was die Steuerung des Spielers zeigt. Außerdem wird bei einer Bewegungsumkehr zwischen rechts und links das Spielerbild gedreht. Bei dem eat() Befehl kann der Player Grünkohl, Minze und den Kuchen essen, also aus der Welt entfernen, dabei wird ein Essensgeräusch abgespielt.
 ![image](https://user-images.githubusercontent.com/111414678/208299774-e0fc016c-5dd1-458c-93cd-9f95523ceab7.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299786-12bca19b-e778-4fc3-bebc-8d8104e14221.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299803-347105f4-9751-4529-9991-14bb1696df53.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299843-61c2c22e-3966-4b96-94d3-4c367d2d8bc7.png)
-Der eatPlayer() Befehl überprüft, ob der Spieler noch lebt, wenn nicht, dann wird der Spieler aus der Welt entfernt, eine Todesnachricht eingeblendet und ein Geräusch abgespielt.
-Der eatKuchen() Befehl macht das gleiche, jedoch mit dem Kuchen, ist dieser gleich Null, dann wird eine Gewinnnachricht gezeigt und ein Essgeräusch abgespielt.
+Der eatPlayer() Befehl überprüft, ob der Spieler noch lebt. Wenn nicht, dann wird der Spieler aus der Welt entfernt, eine Todesnachricht eingeblendet und ein Geräusch abgespielt.
+Der eatKuchen() Befehl macht das gleiche, jedoch mit dem Kuchen. Ist dieser gleich Null, dann wird eine Gewinnnachricht gezeigt und ein Essgeräusch abgespielt.
 
 
 
@@ -172,13 +172,13 @@ Der Actor "Player2" ist der vom Spieler gesteuerte Ritter im zweiten Level. Für
 
 
 #### <a name="13"></a>Schlange
-Der Actor "Schlange" kann als einziger Actor im ersten Level den Spieler töten. Deshalb ist es für den Spieler nur möglich, ihm auszuweichen, um das Ziel zu erreichen. Die Schlange hat drei act() Methoden, die tastaturSteuerung(), die die Schlange ist, wie die meisten Aktoren mit dem Hintergrund mitbewegt, zudem hat die Schlange eine Steuerung auf den Pfeiltasten, die ein drehen und eine links, rechts Bewegung ermöglicht. Die eat() Methode lässt die Schlange den Frosch und den Player essen. Die Methode eatPlayer entfernt bei Berührung den Spieler und lässt einen GameOver Fenster erscheinen.
+Der Actor "Schlange" kann als einziger Actor im ersten Level den Spieler töten. Deshalb ist es für den Spieler nur möglich, ihm auszuweichen, um das Ziel zu erreichen. Die Schlange hat drei act() Methoden, die tastaturSteuerung(), die die Schlange ist, wie die meisten Aktoren mit dem Hintergrund mitbewegt, zudem hat die Schlange eine Steuerung auf den Pfeiltasten, die ein Drehen und eine links und rechts Bewegung ermöglicht. Die eat() Methode lässt die Schlange, den Frosch und den Player essen. Die Methode eatPlayer entfernt bei Berührung den Spieler und lässt ein GameOver-Fenster erscheinen.
 ![image](https://user-images.githubusercontent.com/111414678/208300606-64226099-4d3f-4b8a-a4ef-2729364a025b.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300622-43d601c2-d052-437b-8fe1-aa448a9a80b9.png)
 
 
 #### <a name="14"></a>Schlange2
-Dieser Actor ist eine Kopie vom Actor "Schlange". Er ist und macht das gleiche im zweiten Level, wie der Name erkennen lässt. Die Schlange2 hat drei act() Methoden, die tastaturSteuerung(), die die Schlange2 ist, wie die meisten Aktoren mit dem Hintergrund mitbewegt, zudem hat die Schlange2 eine Steuerung auf den Pfeiltasten, die ein drehen und eine links, rechts Bewegung ermöglicht. Die eat() Methode lässt die Schlange den Frosch und den Player2 essen. Die Methode eatPlayer2 entfernt bei Berührung den Spieler und lässt einen GameOver Fenster erscheinen.
+Dieser Actor ist eine Kopie vom Actor "Schlange". Er ist und macht das gleiche im zweiten Level, wie der Name erkennen lässt. Die Schlange2 hat drei act() Methoden, die tastaturSteuerung(), die die Schlange2 ist, wie die meisten Aktoren mit dem Hintergrund mitbewegt, zudem hat die Schlange2 eine Steuerung auf den Pfeiltasten, die ein drehen und eine links, rechts Bewegung ermöglicht. Die eat() Methode lässt die Schlange den Frosch und den Player2 essen. Die Methode eatPlayer2 entfernt bei Berührung den Spieler und lässt einen GameOver-Fenster erscheinen.
 ![image](https://user-images.githubusercontent.com/111414678/208300661-9f1532a8-f361-498d-8a1b-361a5598ace9.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300674-8f71dc57-35d1-4f23-9040-6b47fb2d82ea.png)
 
