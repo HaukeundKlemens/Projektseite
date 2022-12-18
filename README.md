@@ -66,6 +66,7 @@ GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er
 
 
 #### Grünkohl
+Grünkohl ist ein Actor, der vom Spieler gegessen werden kann.
 ![image](https://user-images.githubusercontent.com/111414678/208299568-7e2692e4-778f-40be-8270-af50950889ba.png)
 
 
@@ -80,16 +81,19 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 
 
 #### Minze
+Minze ist ein Actor, der vom Spieler gegessen werden kann.
 ![image](https://user-images.githubusercontent.com/111414678/208299622-46b6cfd8-d089-49e9-b28a-1323c6c448cc.png)
 
 
 
 #### Platform
+Auf der "Platform" kann der Spieler stehen, sich bewegen und springen ohne nach unten zu fallen.
 ![image](https://user-images.githubusercontent.com/111414678/208299639-2ec66d0e-f069-466c-a8fa-64fb63dcc9c9.png)
 
 
 
 #### Player
+Der Actor "Player" ist der vom Spieler gesteuerte Ritter im ersten Level.
 ![image](https://user-images.githubusercontent.com/111414678/208299750-58f584b4-1cc0-4889-a5b9-0023ecbbc46f.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299774-e0fc016c-5dd1-458c-93cd-9f95523ceab7.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299786-12bca19b-e778-4fc3-bebc-8d8104e14221.png)
@@ -99,6 +103,7 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 
 
 #### Player2
+Der Actor "Player" ist der vom Spieler gesteuerte Ritter im zweiten Level.
 ![image](https://user-images.githubusercontent.com/111414678/208300406-06cf85c6-ef02-4de2-ad14-854704a31952.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300429-e8006e79-4ae1-46ed-977e-55e1fb457f2f.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300447-35fa586c-3928-4579-9672-60e069391255.png)
@@ -109,16 +114,19 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 
 
 #### Schlange
+Der Actor "Schlange" kann als einziger Actor im ersten Level den Spieler töten. Deshalb ist es für den Spieler nur möglich, ihm auszuweichen, um das Ziel zu erreichen.
 ![image](https://user-images.githubusercontent.com/111414678/208300606-64226099-4d3f-4b8a-a4ef-2729364a025b.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300622-43d601c2-d052-437b-8fe1-aa448a9a80b9.png)
 
 
 #### Schlange2
+Dieser Actor ist eine Kopie vom Actor "Schlange". Er ist und macht das gleiche im zweiten Level, wie der Name erkennen lässt.
 ![image](https://user-images.githubusercontent.com/111414678/208300661-9f1532a8-f361-498d-8a1b-361a5598ace9.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300674-8f71dc57-35d1-4f23-9040-6b47fb2d82ea.png)
 
 
 #### Steuerung
+Dieser Actor ist eine Infotafel, die sich für den Spielenden nicht bewegt und ihm die Steuerung für den Player zeigt.
 ![image](https://user-images.githubusercontent.com/111414678/208300764-e4d98552-d08f-4626-8be0-2e3288628b82.png)
 
 
