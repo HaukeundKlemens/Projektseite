@@ -69,6 +69,9 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 #### Schlange
 
 
+#### Schlange2
+
+
 #### Steuerung
 Mit der
 
