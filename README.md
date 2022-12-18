@@ -67,11 +67,12 @@ Die Fliege ist ein Actor, der von dem Frosch gegessen werden kann und keinen Ein
 ![image](https://user-images.githubusercontent.com/111414678/208299397-221cfde1-1a86-4625-9def-851f85242708.png)
 Die Fliege hat nur den act() Befehl und dieser gibt der Fliege nur die ständige Veränderung ihrer Flugbahn in einem maximal 45 Grad Winkel vor, dieseVeränderung wird durch einen Zufallsgenerator bestimmt.
 Wenn sie sich am Rand Befindet dreht sie sich um  180 Grad.
-
+Außerdem sind darunter zwei Möglichkeiten, die Fliege zu bewegen gelistet, welche allerdings inaktiv sind. 
 
 #### Frosch
 Der Frosch ist ein Actor, der Fliegen essen kann. Er kommt einmal in jedem Level vor und hat keinen Einfluss auf den Spieler selber.
 ![image](https://user-images.githubusercontent.com/111414678/208299427-162e34a7-fc19-4e7c-9dc9-fd29c06e336b.png)
+
 ![image](https://user-images.githubusercontent.com/111414678/208299440-5057b6fb-7cf5-48ef-953b-e863b20ce4ba.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299531-152c0bee-a59e-4d93-ae85-9f57e12dd6d8.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299539-7aca42f9-a294-440f-8dd2-96db05aa8722.png)
@@ -84,23 +85,23 @@ GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er
 
 
 #### Grünkohl
-"Grünkohl" ist ein Actor, der vom Spieler gegessen werden kann.
+"Grünkohl" ist ein Actor, der vom Spieler gegessen werden kann. Er bewegt sich exakt mit dem Hintergrund durch den move Befehl, der an die Tastaturtasten a und d geheftet wurde.
 ![image](https://user-images.githubusercontent.com/111414678/208299568-7e2692e4-778f-40be-8270-af50950889ba.png)
 
 
 #### Infotafel
-Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Sie wurde von uns auf der Seite "pixelart" erstellt und ins Spiel eingefügt. In jedem Level gibt es nahe der Startposition des Spielers eine Infotafel.
+Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Sie wurde von uns auf der Seite "pixelart" erstellt und ins Spiel eingefügt. In jedem Level gibt es nahe der Startposition des Spielers eine Infotafel. Sie bewegt sich exakt mit dem Hintergrund durch den move Befehl, der an die Tastaturtasten a und d geheftet wurde.
 ![image](https://user-images.githubusercontent.com/111414678/208299587-12127aae-48ed-4926-ac6d-5a3043662fd0.png)
 
 
 #### Kuchen
-"Kuchen" ist ein Actor, der vom Spieler gegessen werden kann. Wenn er dies tut, schließt er ein Level ab bzw. gewinnt dieses. 
+"Kuchen" ist ein Actor, der vom Spieler gegessen werden kann. Wenn er dies tut, schließt er ein Level ab bzw. gewinnt dieses. Er bewegt sich exakt mit dem Hintergrund durch den move Befehl, der an die Tastaturtasten a und d geheftet wurde.
 ![image](https://user-images.githubusercontent.com/111414678/208302596-3a7aa52d-fed5-4e26-98ae-07c73dcac56c.png)
 
 
 
 #### Minze
-"Minze" ist ein Actor, der vom Spieler gegessen werden kann.
+"Minze" ist ein Actor, der vom Spieler gegessen werden kann. Er bewegt sich exakt mit dem Hintergrund durch den move Befehl, der an die Tastaturtasten a und d geheftet wurde.
 ![image](https://user-images.githubusercontent.com/111414678/208299622-46b6cfd8-d089-49e9-b28a-1323c6c448cc.png)
 
 
@@ -145,7 +146,7 @@ Dieser Actor ist eine Kopie vom Actor "Schlange". Er ist und macht das gleiche i
 
 
 #### Steuerung
-Dieser Actor ist eine Infotafel, die sich für den Spielenden nicht bewegt und ihm die Steuerung für den Player zeigt.
+Dieser Actor ist eine Infotafel, die sich für den Spielenden nicht bewegt und ihm die Steuerung für den Player zeigt. Sie bewegt sich exakt mit dem Hintergrund durch den move Befehl, der an die Tastaturtasten a und d geheftet wurde.
 ![image](https://user-images.githubusercontent.com/111414678/208300764-e4d98552-d08f-4626-8be0-2e3288628b82.png)
 
 
