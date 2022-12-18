@@ -66,7 +66,7 @@ GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er
 
 
 #### Grünkohl
-Grünkohl ist ein Actor, der vom Spieler gegessen werden kann.
+"Grünkohl" ist ein Actor, der vom Spieler gegessen werden kann.
 ![image](https://user-images.githubusercontent.com/111414678/208299568-7e2692e4-778f-40be-8270-af50950889ba.png)
 
 
@@ -76,12 +76,13 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 
 
 #### Kuchen
+"Kuchen" ist ein Actor, der vom Spieler gegessen werden kann. Wenn er dies tut, schließt er ein Level ab bzw. gewinnt dieses. 
 ![image](https://user-images.githubusercontent.com/111414678/208302596-3a7aa52d-fed5-4e26-98ae-07c73dcac56c.png)
 
 
 
 #### Minze
-Minze ist ein Actor, der vom Spieler gegessen werden kann.
+"Minze" ist ein Actor, der vom Spieler gegessen werden kann.
 ![image](https://user-images.githubusercontent.com/111414678/208299622-46b6cfd8-d089-49e9-b28a-1323c6c448cc.png)
 
 
@@ -103,7 +104,7 @@ Der Actor "Player" ist der vom Spieler gesteuerte Ritter im ersten Level.
 
 
 #### Player2
-Der Actor "Player" ist der vom Spieler gesteuerte Ritter im zweiten Level.
+Der Actor "Player2" ist der vom Spieler gesteuerte Ritter im zweiten Level.
 ![image](https://user-images.githubusercontent.com/111414678/208300406-06cf85c6-ef02-4de2-ad14-854704a31952.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300429-e8006e79-4ae1-46ed-977e-55e1fb457f2f.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300447-35fa586c-3928-4579-9672-60e069391255.png)
@@ -131,6 +132,6 @@ Dieser Actor ist eine Infotafel, die sich für den Spielenden nicht bewegt und i
 
 
 #### WinOver
-WinOver ist ein Actor, der ausgeführt wird, wenn der Actor Kuchen getötet wird bzw., wenn der Spieler den Kuchen isst. Er bedeckt dann den Bildschirm mit einem "win"-Schriftzug in grün-schwarzer Farbe. 
+"WinOver" ist ein Actor, der ausgeführt wird, wenn der Actor Kuchen getötet wird bzw., wenn der Spieler den Kuchen isst. Er bedeckt dann den Bildschirm mit einem "win"-Schriftzug in grün-schwarzer Farbe. 
 ![image](https://user-images.githubusercontent.com/111414678/208300782-d710ba65-fd03-44f4-b5f6-d275fb5a87a3.png)
 
