@@ -49,6 +49,9 @@ Die Fliege ist ein Actor, der von dem Frosch gegessen werden kann und keinen Ein
 
 #### Frosch
 Der Frosch ist ein Actor, der Fliegen essen kann. Er kommt einmal in jedem Level vor und hat keinen Einfluss auf den Spieler selber.
+![image](https://user-images.githubusercontent.com/111414678/208299427-162e34a7-fc19-4e7c-9dc9-fd29c06e336b.png)
+![image](https://user-images.githubusercontent.com/111414678/208299440-5057b6fb-7cf5-48ef-953b-e863b20ce4ba.png)
+
 
 #### GameOver
 GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er bedeckt dann den Bildschirm mit einem "dead"-Schriftzug in rot-schwarzer Farbe. 
