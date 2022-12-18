@@ -115,7 +115,6 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 
 
 #### Steuerung
-Mit der
 ![image](https://user-images.githubusercontent.com/111414678/208300764-e4d98552-d08f-4626-8be0-2e3288628b82.png)
 
 
