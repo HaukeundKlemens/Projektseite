@@ -39,25 +39,36 @@ Die Welt KnightWorld stellt das zweite Level des Spiels dar.
 Die Fliege ist ein Actor, der von dem Frosch gegessen werden kann und keinen Einfluss auf den Spieler selber hat.
 
 #### Frosch
+Der Frosch ist ein Actor, der Fliegen essen kann. Er kommt einmal in jedem Level vor und hat keinen Einfluss auf den Spieler selber.
 
 #### GameOver
 
+
 #### Grünkohl
+
 
 #### Infotafel
 
+
 #### Kuchen
+
 
 #### Minze
 
+
 #### Platform
+
 
 #### Player
 
+
 #### Player2
+
 
 #### Schlange
 
+
 #### Steuerung
+
 
 #### WinOver
