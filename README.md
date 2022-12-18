@@ -37,6 +37,8 @@ Die Welt KnightWorld stellt das zweite Level des Spiels dar.
 ![image](https://user-images.githubusercontent.com/111414678/208299150-b10a35d7-f0fd-482b-a72c-ee2c01a988fa.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299168-018865e1-8d84-4f0a-b0af-f8ce505cb48d.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299190-1ce16aef-d0af-456e-b94a-452ae615c6a4.png)
+![image](https://user-images.githubusercontent.com/111414678/208299245-32a5d327-f974-44c2-9273-8805382d0270.png)
+![image](https://user-images.githubusercontent.com/111414678/208299264-47000b70-3aad-41a6-96e1-04e5d2b4d0bd.png)
 
 ### Actors
 
