@@ -65,7 +65,7 @@ Das Spiel kann mit dem Tod durch die Schlange, oder dem Erreichen des Kuchens, b
 
 ### Worlds
 
-#### KnightWorld
+#### <a name="1"></a>KnightWorld
 Die Welt KnightWorld stellt das erste Level des Spiels dar.
 ![image](https://user-images.githubusercontent.com/111414678/208318202-5bbf5af2-28b8-403d-917a-ca7ab4bfd00e.png)
 Der Code beginnt mit zwei Variablen, die im Code erklärt sind.
@@ -85,7 +85,7 @@ Das einfügen von für den Spieler harmlosen Schlangen in die Welt ist geplant.
 
 
 
-#### KnightWorld2
+#### <a name="2"></a>KnightWorld2
 Die Welt KnightWorld2 stellt das zweite Level des Spiels dar. Hier gibt es keine große Änderung zum anderen Level, außer, dass der Actor hier Player2 und nicht Player heißt und das Level anders aufgebaut ist.
 ![image](https://user-images.githubusercontent.com/111414678/208299150-b10a35d7-f0fd-482b-a72c-ee2c01a988fa.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299168-018865e1-8d84-4f0a-b0af-f8ce505cb48d.png)
