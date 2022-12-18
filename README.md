@@ -97,6 +97,8 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 ![image](https://user-images.githubusercontent.com/111414678/208300429-e8006e79-4ae1-46ed-977e-55e1fb457f2f.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300447-35fa586c-3928-4579-9672-60e069391255.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300466-fdf23c41-e9e8-4f8d-a8d7-60ad9c4a327e.png)
+![image](https://user-images.githubusercontent.com/111414678/208300532-df79d1ba-683b-40f9-a44a-8b13f2261252.png)
+![image](https://user-images.githubusercontent.com/111414678/208300554-87115154-befb-43a0-bc87-5a0f0b7c75ef.png)
 
 
 
