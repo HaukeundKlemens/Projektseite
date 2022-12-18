@@ -49,7 +49,7 @@ GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er
 
 
 #### Infotafel
-
+Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Sie wurde von uns auf der Seite "pixelart" erstellt und ins Spiel eingefügt. In jedem Level gibt es nahe der Startposition des Spielers eine Infotafel.
 
 #### Kuchen
 
@@ -70,7 +70,7 @@ GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er
 
 
 #### Steuerung
-
+Mit der
 
 #### WinOver
 WinOver ist ein Actor, der ausgeführt wird, wenn der Actor Kuchen getötet wird bzw., wenn der Spieler den Kuchen isst. Er bedeckt dann den Bildschirm mit einem "win"-Schriftzug in grün-schwarzer Farbe. 
