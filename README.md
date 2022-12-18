@@ -26,7 +26,7 @@ Sollte der Ritter aber davor sterben, erscheint ein "dead"-Screen.
 ## Start und Ende
 
 Vor dem Start kann man sich zwischen zwei Leveln entscheiden, dies kann man rechts oben im Menü machen, danach kann man auf "run" klicken und das Spiel startet.
-Das Spiel kann mit dem Tod durch die Schlange oder dem Erreichen des Kuchens beendet werden.
+Das Spiel kann mit dem Tod durch die Schlange, oder dem Erreichen des Kuchens, beendet werden.
 
 ## Die verschiedenen Klassen/Actors erklärt
 
@@ -172,13 +172,13 @@ Der Actor "Player2" ist der vom Spieler gesteuerte Ritter im zweiten Level. Für
 
 
 #### <a name="13"></a>Schlange
-Der Actor "Schlange" kann als einziger Actor im ersten Level den Spieler töten. Deshalb ist es für den Spieler nur möglich, ihm auszuweichen, um das Ziel zu erreichen.
+Der Actor "Schlange" kann als einziger Actor im ersten Level den Spieler töten. Deshalb ist es für den Spieler nur möglich, ihm auszuweichen, um das Ziel zu erreichen. Die Schlange hat drei act() Methoden, die tastaturSteuerung(), die die Schlange, wie die meisten Aktoren mit dem Hintergrund mitbewegt, zudem hat die Schlange eine Steuerung auf den Pfeiltasten, die ein drehen und eine links, rechts Bewegung ermöglicht. Die eat() Methode lässt die Schlange den Frosch und den Player essen. Die Methode eatPlayer entfernt bei Berührung den Spieler und lässt einen GameOver Fenster erscheinen.
 ![image](https://user-images.githubusercontent.com/111414678/208300606-64226099-4d3f-4b8a-a4ef-2729364a025b.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300622-43d601c2-d052-437b-8fe1-aa448a9a80b9.png)
 
 
 #### <a name="14"></a>Schlange2
-Dieser Actor ist eine Kopie vom Actor "Schlange". Er ist und macht das gleiche im zweiten Level, wie der Name erkennen lässt.
+Dieser Actor ist eine Kopie vom Actor "Schlange". Er ist und macht das gleiche im zweiten Level, wie der Name erkennen lässt. Die Schlange2 hat drei act() Methoden, die tastaturSteuerung(), die die Schlange2 ist, wie die meisten Aktoren mit dem Hintergrund mitbewegt, zudem hat die Schlange eine Steuerung auf den Pfeiltasten, die ein drehen und eine links, rechts Bewegung ermöglicht. Die eat() Methode lässt die Schlange den Frosch und den Player essen. Die Methode eatPlayer entfernt bei Berührung den Spieler und lässt einen GameOver Fenster erscheinen.
 ![image](https://user-images.githubusercontent.com/111414678/208300661-9f1532a8-f361-498d-8a1b-361a5598ace9.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300674-8f71dc57-35d1-4f23-9040-6b47fb2d82ea.png)
 
