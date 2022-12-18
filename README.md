@@ -61,7 +61,7 @@ Der Frosch ist ein Actor, der Fliegen essen kann. Er kommt einmal in jedem Level
 
 
 #### GameOver
-GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er bedeckt dann den Bildschirm mit einem "dead"-Schriftzug in rot-schwarzer Farbe. 
+GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er bedeckt dann den Bildschirm mit einem "dead"-Schriftzug in rot-schwarzer Farbe. Dazu erscheint eine akustische Untermalung in Form eines passenden Geräuschs.
 ![image](https://user-images.githubusercontent.com/111414678/208299554-0970a94d-2e1a-4d37-87f7-f29adfd78b7e.png)
 
 
@@ -94,7 +94,7 @@ Auf der "Platform" kann der Spieler stehen, sich bewegen und springen ohne nach 
 
 
 #### Player
-Der Actor "Player" ist der vom Spieler gesteuerte Ritter im ersten Level.
+Der Actor "Player" ist der vom Spieler gesteuerte Ritter im ersten Level. Wenn dieser Grünkohl oder Minze isst, erscheint ein dazu passendes Geräusch.
 ![image](https://user-images.githubusercontent.com/111414678/208299750-58f584b4-1cc0-4889-a5b9-0023ecbbc46f.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299774-e0fc016c-5dd1-458c-93cd-9f95523ceab7.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299786-12bca19b-e778-4fc3-bebc-8d8104e14221.png)
