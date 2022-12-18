@@ -148,7 +148,7 @@ Auf der "Platform" kann der Spieler stehen, sich bewegen und springen ohne nach 
 
 #### <a name="11"></a>Player
 Der Actor "Player" ist der vom Spieler gesteuerte Ritter im ersten Level. Wenn dieser Grünkohl oder Minze isst, erscheint ein dazu passendes Geräusch.
-![image](https://user-images.githubusercontent.com/111414678/208299750-58f584b4-1cc0-4889-a5b9-0023ecbbc46f.png)
+![image](https://user-images.githubusercontent.com/111414678/208321803-04311c17-f8ee-4d4c-b081-b5aa032ffc18.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299774-e0fc016c-5dd1-458c-93cd-9f95523ceab7.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299786-12bca19b-e778-4fc3-bebc-8d8104e14221.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299803-347105f4-9751-4529-9991-14bb1696df53.png)
