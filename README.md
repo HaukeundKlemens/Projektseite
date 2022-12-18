@@ -103,13 +103,21 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 
 
 #### Schlange
+![image](https://user-images.githubusercontent.com/111414678/208300606-64226099-4d3f-4b8a-a4ef-2729364a025b.png)
+![image](https://user-images.githubusercontent.com/111414678/208300622-43d601c2-d052-437b-8fe1-aa448a9a80b9.png)
 
 
 #### Schlange2
+![image](https://user-images.githubusercontent.com/111414678/208300661-9f1532a8-f361-498d-8a1b-361a5598ace9.png)
+![image](https://user-images.githubusercontent.com/111414678/208300674-8f71dc57-35d1-4f23-9040-6b47fb2d82ea.png)
 
 
 #### Steuerung
 Mit der
+![image](https://user-images.githubusercontent.com/111414678/208300764-e4d98552-d08f-4626-8be0-2e3288628b82.png)
+
 
 #### WinOver
 WinOver ist ein Actor, der ausgeführt wird, wenn der Actor Kuchen getötet wird bzw., wenn der Spieler den Kuchen isst. Er bedeckt dann den Bildschirm mit einem "win"-Schriftzug in grün-schwarzer Farbe. 
+![image](https://user-images.githubusercontent.com/111414678/208300782-d710ba65-fd03-44f4-b5f6-d275fb5a87a3.png)
+
