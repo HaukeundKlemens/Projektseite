@@ -93,6 +93,11 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 
 
 #### Player2
+![image](https://user-images.githubusercontent.com/111414678/208300406-06cf85c6-ef02-4de2-ad14-854704a31952.png)
+![image](https://user-images.githubusercontent.com/111414678/208300429-e8006e79-4ae1-46ed-977e-55e1fb457f2f.png)
+![image](https://user-images.githubusercontent.com/111414678/208300447-35fa586c-3928-4579-9672-60e069391255.png)
+![image](https://user-images.githubusercontent.com/111414678/208300466-fdf23c41-e9e8-4f8d-a8d7-60ad9c4a327e.png)
+
 
 
 #### Schlange
