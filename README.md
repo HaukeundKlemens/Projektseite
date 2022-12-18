@@ -31,21 +31,37 @@ Das Spiel kann mit dem Tod durch die Schlange, oder dem Erreichen des Kuchens, b
 ## Die verschiedenen Klassen/Actors erklärt
 
 [KnightWorld](#1)
+
 [KnightWorld2](#2)
+
 [Fliege](#3)
+
 [Frosch](#4)
+
 [GameOver](#5)
+
 [Grünkohl](#6)
+
 [Infotafel](#7)
+
 [Kuchen](#8)
+
 [Minze](#9)
+
 [Platform](#10)
+
 [Player](#11)
+
 [Player2](#12)
+
 [Schlange](#13)
+
 [Schlange2](#14)
+
 [Steuerung](#15)
+
 [WinOver](#16)
+
 
 ### Worlds
 
