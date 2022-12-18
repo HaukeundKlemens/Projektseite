@@ -12,9 +12,10 @@ Wir wollten auch einen Screen dafür, dass der Spieler tot ist und einen dafür,
 
 ## Aufbau
 Die Spielfigur, die der Spieler steuert, ist ein Ritter namens Sir Grünkohl.
-Dieser hat das Ziel, zum Kuchen zu gelangen und diesen zu verspeisen, um ein Level zu schaffen. 
-Dabei muss der Ritter allerdings den Schlangen ausweichen, denn diese wollen ihn töten.
-Der Ritter muss dafür auch von Plattform zu Plattform springen.
+Dieser hat das Ziel, zum Kuchen zu gelangen und diesen zu verspeisen, um ein Level zu schaffen.
+Gesteuert wird er vom Spieler mit den Tasten "A" für links, "D" für rechts und die Leertaste zum Springen.
+Dabei darf der Ritter allerdings den Schlangen nicht zu nah kommen, denn sonst töten diese ihn.
+Der Ritter muss dabei, um sein Ziel zu erreichen, auch von Plattform zu Plattform springen.
 Auf dem Weg zum Kuchen kann er Grünkohl und Minze einsammeln und essen.
 Außerdem gibt es in jedem Level einen Frosch, der Fliegen isst, die in der Luft herumfliegen. 
 Diese haben aber keinen Einfluss auf den Spieler.
@@ -42,7 +43,7 @@ Die Fliege ist ein Actor, der von dem Frosch gegessen werden kann und keinen Ein
 Der Frosch ist ein Actor, der Fliegen essen kann. Er kommt einmal in jedem Level vor und hat keinen Einfluss auf den Spieler selber.
 
 #### GameOver
-
+GameOver ist ein Actor, der ausgeführt wird, wenn der Spieler getötet wird. Er bedeckt dann den Bildschirm mit 
 
 #### Grünkohl
 
