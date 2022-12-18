@@ -71,6 +71,8 @@ Auf der Infotafel wird dem Spieler sein Ziel, den Kuchen zu essen mitgeteilt. Si
 
 
 #### Kuchen
+![image](https://user-images.githubusercontent.com/111414678/208302596-3a7aa52d-fed5-4e26-98ae-07c73dcac56c.png)
+
 
 
 #### Minze
