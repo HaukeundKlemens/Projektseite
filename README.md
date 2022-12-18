@@ -23,6 +23,10 @@ Am Ende ist auf der letzten Plattform jedes Levels ein Kuchen.
 Wenn der Ritter diesen isst, gewinnt er das Level und ein "win"-Screen erscheint.
 Sollte der Ritter aber davor sterben, erscheint ein "dead"-Screen.
 
+## Start und Ende
+
+Vor dem Start kann man sich zwischen zwei Leveln entscheiden, dies kann man rechts oben im Menü machen, danach kann man auf "run" klicken und das Spiel startet.
+Das spiel kann mit dem Tod durch die Schlange, oder dem erreichen des Kuchens, beendet werden.
 
 ## Die Codes der verschiedenen Klassen/Actors erklärt
 
