@@ -72,8 +72,8 @@ Außerdem sind darunter zwei Möglichkeiten, die Fliege zu bewegen gelistet, wel
 #### Frosch
 Der Frosch ist ein Actor, der Fliegen essen kann. Er kommt einmal in jedem Level vor und hat keinen Einfluss auf den Spieler selber.
 ![image](https://user-images.githubusercontent.com/111414678/208299427-162e34a7-fc19-4e7c-9dc9-fd29c06e336b.png)
-VerticalSpeed ist eine Variable. Der Befehl MoveAndTurn lässt den Frosch nach Links und Rechts laufen. Mit Eat kann der Frosch die Fliege essen. 
-Die act() Methode lässt die Codes immer wieder ausführen, diese sind moveAndTurn() ist für die 
+VerticalSpeed ist eine Variable. Die act() Methode lässt die Codes immer wieder ausführen. Der Befehl MoveAndTurn lässt den Frosch nach Links und Rechts laufen. Mit Eat kann der Frosch die Fliege essen. Falling sorgt dafür, dass die Fallgeschwindigkeit immer höher wird. Checkfalling bedeutet, dass überprüft wird, ob der Actor auf einer Platform ist und lässt diesen fallen, wenn dies nicht der Fall ist.
+
 ![image](https://user-images.githubusercontent.com/111414678/208299440-5057b6fb-7cf5-48ef-953b-e863b20ce4ba.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299531-152c0bee-a59e-4d93-ae85-9f57e12dd6d8.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299539-7aca42f9-a294-440f-8dd2-96db05aa8722.png)
