@@ -149,15 +149,19 @@ Auf der "Platform" kann der Spieler stehen, sich bewegen und springen ohne nach 
 #### <a name="11"></a>Player
 Der Actor "Player" ist der vom Spieler gesteuerte Ritter im ersten Level. Wenn dieser Grünkohl oder Minze isst, erscheint ein dazu passendes Geräusch.
 ![image](https://user-images.githubusercontent.com/111414678/208321803-04311c17-f8ee-4d4c-b081-b5aa032ffc18.png)
+Als Variablen gibt es eine score Variable, die ungenutzt ist, sowie wieder die verticalSpeed Variable, wie beim Frosch.
+in der act() Methode gibt es checkKeys, was die Steuerung des Spielers zeigt, außerdem wird bei einer Bewegungsumkehr zwischen rechts und links das Spielerbild gedreht. Bei dem eat() Befehl kann der Player Grünkohl, Minze und den Kuchen essen, also aus der Welt entfernen, dabei wird ein Essensgeräusch abgespielt.
 ![image](https://user-images.githubusercontent.com/111414678/208299774-e0fc016c-5dd1-458c-93cd-9f95523ceab7.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299786-12bca19b-e778-4fc3-bebc-8d8104e14221.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299803-347105f4-9751-4529-9991-14bb1696df53.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299843-61c2c22e-3966-4b96-94d3-4c367d2d8bc7.png)
+Der eatPlayer() Befehl überprüft, ob der Spieler noch lebt, wenn nicht, dann wird der Spieler aus der Welt entfernt, eine Todesnachricht eingeblendet und ein Geräusch abgespielt.
+Der eatKuchen() Befehl macht das gleiche, jedoch mit dem Kuchen, ist dieser gleich Null, dann wird eine Gewinnnachricht gezeigt und ein Essgeräusch abgespielt.
 
 
 
 #### <a name="12"></a>Player2
-Der Actor "Player2" ist der vom Spieler gesteuerte Ritter im zweiten Level.
+Der Actor "Player2" ist der vom Spieler gesteuerte Ritter im zweiten Level. Für Player2 gilt das selbe, wie für den Player, die Codes sind fast identisch.
 ![image](https://user-images.githubusercontent.com/111414678/208300406-06cf85c6-ef02-4de2-ad14-854704a31952.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300429-e8006e79-4ae1-46ed-977e-55e1fb457f2f.png)
 ![image](https://user-images.githubusercontent.com/111414678/208300447-35fa586c-3928-4579-9672-60e069391255.png)
