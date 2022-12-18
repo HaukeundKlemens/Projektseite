@@ -53,7 +53,7 @@ Das einfügen von für den Spieler harmlosen Schlangen in die Welt ist geplant.
 
 
 #### KnightWorld2
-Die Welt KnightWorld stellt das zweite Level des Spiels dar.
+Die Welt KnightWorld stellt das zweite Level des Spiels dar. Hier gibt es keine große Änderung zum anderen Level, außer, dass der Actor hier Player2 und nicht Player heißt.
 ![image](https://user-images.githubusercontent.com/111414678/208299150-b10a35d7-f0fd-482b-a72c-ee2c01a988fa.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299168-018865e1-8d84-4f0a-b0af-f8ce505cb48d.png)
 ![image](https://user-images.githubusercontent.com/111414678/208299190-1ce16aef-d0af-456e-b94a-452ae615c6a4.png)
