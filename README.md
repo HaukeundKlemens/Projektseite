@@ -192,4 +192,4 @@ Dieser Actor ist eine Infotafel, die sich für den Spielenden nicht bewegt und i
 "WinOver" ist ein Actor, der ausgeführt wird, wenn der Actor Kuchen getötet wird bzw., wenn der Spieler den Kuchen isst. Er bedeckt dann den Bildschirm mit einem "win"-Schriftzug in grün-schwarzer Farbe. 
 ![image](https://user-images.githubusercontent.com/111414678/208300782-d710ba65-fd03-44f4-b5f6-d275fb5a87a3.png)
 
-kj
+
